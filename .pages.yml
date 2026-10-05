@@ -1,0 +1,159 @@
+# Pages CMS configuration (https://pagescms.org). Do not rename this file.
+media:
+  input: assets/uploads
+  output: /assets/uploads
+  categories: [image]
+
+content:
+  - name: projects
+    label: Projects
+    description: The work on the home page, in order. Drag to reorder.
+    type: file
+    path: content/projects.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        label: Short title (on the tile)
+        type: string
+        required: true
+      - name: headline
+        label: Headline
+        type: string
+        required: true
+      - name: id
+        label: Link name
+        description: Lowercase, no spaces. Used for the file name and the link, e.g. yoursite.com/#ryanair
+        type: string
+        required: true
+        pattern: "^[a-z0-9-]+$"
+      - name: year
+        type: string
+      - name: type
+        label: Category
+        type: select
+        options:
+          values: [Content Creation, Campaign, PR, Branding]
+      - name: stat
+        label: Stat chip
+        description: Optional, e.g. "11M views"
+        type: string
+      - name: img
+        label: Main image
+        type: image
+      - name: desc
+        label: Intro
+        type: text
+      - name: blocks
+        label: Case study
+        type: block
+        list: true
+        blockKey: k
+        blocks:
+          - name: h
+            label: Big statement
+            fields:
+              - name: x
+                label: Text
+                type: text
+          - name: p
+            label: Paragraph
+            fields:
+              - name: x
+                label: Text
+                type: text
+          - name: img
+            label: Image
+            fields:
+              - name: src
+                label: Image
+                type: image
+              - name: cap
+                label: Caption
+                type: text
+          - name: video
+            label: YouTube video
+            fields:
+              - name: u
+                label: YouTube link
+                type: string
+          - name: link
+            label: Link button
+            fields:
+              - name: x
+                label: Button text
+                type: string
+              - name: u
+                label: URL
+                type: string
+      - name: agency
+        label: Made with
+        type: string
+      - name: role
+        label: Our role
+        type: text
+      - name: press
+        label: Featured in
+        type: string
+      - name: art
+        label: Placeholder art
+        description: Only shows while there is no main image.
+        type: string
+        hidden: true
+
+  - name: site
+    label: Site settings
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: status_on
+        label: Show the status pill
+        type: boolean
+      - name: status_text
+        label: Status pill text
+        type: string
+      - name: hero_title
+        label: Home headline
+        type: text
+      - name: hero_sub
+        label: Home sub-line
+        type: text
+      - name: projects_per_load
+        label: Projects shown per "Load more"
+        type: number
+      - name: about_title
+        label: About headline
+        type: string
+      - name: about_text
+        label: About text
+        type: text
+      - name: stats
+        label: About stats
+        type: object
+        list: true
+        fields:
+          - name: value
+            label: Number
+            type: string
+          - name: label
+            label: Caption
+            type: string
+      - name: worked_with
+        label: Worked with
+        type: text
+      - name: contact_title
+        label: Contact headline
+        type: string
+      - name: contact_placeholder
+        label: Message box hint
+        type: string
+      - name: youtube
+        label: YouTube link
+        type: string
+      - name: x
+        label: X link
+        type: string
+      - name: instagram
+        label: Instagram link
+        type: string
