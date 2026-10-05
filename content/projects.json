@@ -1,12 +1,12 @@
 [
   {
-    "id": "ryanair",
     "title": "Ryanair",
     "headline": "Ryanair Never Asked for This. 11M People Watched It.",
+    "id": "ryanair",
     "year": "2026",
     "type": "Content Creation",
-    "art": "radial-gradient(circle at 68% 36%, #FFC72C 0 17%, transparent 17.5%), repeating-linear-gradient(0deg, #0D2B7A 0 28px, #123A9E 28px 56px)",
     "stat": "11M views",
+    "img": "/assets/ryanair.jpg",
     "desc": "An unhinged AI spec ad that turned Ryanair’s obsession with extra fees into a viral hit.",
     "blocks": [
       {
@@ -23,23 +23,20 @@
       },
       {
         "k": "link",
-        "u": "https://x.com/daniel_eckler/status/2037538651848999233?s=20",
-        "x": "See the reaction on X"
+        "x": "See the reaction on X",
+        "u": "https://x.com/daniel_eckler/status/2037538651848999233?s=20"
       }
     ],
-    "agency": "",
-    "role": "",
-    "press": "",
-    "img": "/assets/ryanair.jpg"
+    "art": "radial-gradient(circle at 68% 36%, #FFC72C 0 17%, transparent 17.5%), repeating-linear-gradient(0deg, #0D2B7A 0 28px, #123A9E 28px 56px)"
   },
   {
-    "id": "stan",
     "title": "STAN",
     "headline": "Building a Sitcom for Satan",
+    "id": "stan",
     "year": "2026",
     "type": "Content Creation",
-    "art": "radial-gradient(circle at 74% 38%, #141414 0 15%, transparent 15.5%), repeating-linear-gradient(-22deg, transparent 0 18px, rgba(255,255,255,.4) 18px 20px), #C4161C",
     "stat": "2nd at Runway",
+    "img": "/assets/stan.jpg",
     "desc": "2nd Place at Runway's \"Big Pitch for TV Shows that Don't Exist Yet\"",
     "blocks": [
       {
@@ -51,19 +48,16 @@
         "u": "https://www.youtube.com/watch?v=KumCnUAi5Zg"
       }
     ],
-    "agency": "",
-    "role": "",
-    "press": "",
-    "img": "/assets/stan.jpg"
+    "art": "radial-gradient(circle at 74% 38%, #141414 0 15%, transparent 15.5%), repeating-linear-gradient(-22deg, transparent 0 18px, rgba(255,255,255,.4) 18px 20px), #C4161C"
   },
   {
-    "id": "tooth",
     "title": "Tooth Fairy Tracker",
     "headline": "The World’s First Tooth Fairy Tracker",
+    "id": "tooth",
     "year": "2025",
     "type": "Content Creation",
-    "art": "radial-gradient(circle at 76% 24%, #FF8CC0 0 12%, transparent 12.5%), radial-gradient(circle at 70% 30%, #FFF6D6 0 14%, transparent 14.5%), radial-gradient(circle, #FFFFFF 0 1.6px, transparent 2.2px) 0 0 / 30px 30px, #FF8CC0",
     "stat": "#1 in US",
+    "img": "/assets/uploads/freepik__character-in-img1-and-img2-wearing-oakley-turquois__40348.webp",
     "desc": "Making the Tooth Fairy real with personalized videos",
     "blocks": [
       {
@@ -83,18 +77,15 @@
         "x": "Behind the experience, we built the creative world, character, and technology that power Kiki — combining storytelling, interactive design, and digital experiences to reinvent one of childhood’s most universal traditions."
       }
     ],
-    "agency": "",
-    "role": "",
     "press": "TechCrunch, Multiplayer, TrendHunter, KultureGeek, TheHustle",
-    "img": ""
+    "art": "radial-gradient(circle at 76% 24%, #FF8CC0 0 12%, transparent 12.5%), radial-gradient(circle at 70% 30%, #FFF6D6 0 14%, transparent 14.5%), radial-gradient(circle, #FFFFFF 0 1.6px, transparent 2.2px) 0 0 / 30px 30px, #FF8CC0"
   },
   {
-    "id": "mascot",
     "title": "Digital Mascot",
     "headline": "The NBA’s First Digital Mascot",
+    "id": "mascot",
     "year": "2021",
     "type": "Content Creation",
-    "art": "radial-gradient(circle, #9EC2FF 0 9px, transparent 10px) 0 0 / 40px 40px, #2E63F0",
     "stat": "NBA first",
     "desc": "Winning the hearts & minds of Mavs fans with a brand new animated mascot - an NBA franchise first.",
     "blocks": [
@@ -112,32 +103,27 @@
       },
       {
         "k": "img",
-        "cap": "We grew Mavrello's social media presence from scratch - amassing over 10 million views in three weeks, significantly boosting the Mavericks' online presence.",
-        "src": ""
+        "cap": "We grew Mavrello's social media presence from scratch - amassing over 10 million views in three weeks, significantly boosting the Mavericks' online presence."
       },
       {
         "k": "img",
-        "cap": "We created Mavrello foam fingers which sold out in a matter of days.",
-        "src": ""
+        "cap": "We created Mavrello foam fingers which sold out in a matter of days."
       },
       {
         "k": "img",
-        "cap": "Mavrello received a significant amount of press coverage, sparked conversations amongst fans, and created a huge buzz around the Mavericks.",
-        "src": ""
+        "cap": "Mavrello received a significant amount of press coverage, sparked conversations amongst fans, and created a huge buzz around the Mavericks."
       }
     ],
     "agency": "Mark Cuban Experiments",
     "role": "Concepting and Art Direction. Developed the character's story and personality. Developed and implemented launch and social media strategy. Creation of all social and web assets. Collaboration with the animation studio. Screenwriting. Managing the mascot's social accounts and creation of all TikTok content.",
-    "press": "",
-    "img": ""
+    "art": "radial-gradient(circle, #9EC2FF 0 9px, transparent 10px) 0 0 / 40px 40px, #2E63F0"
   },
   {
-    "id": "luka",
     "title": "Luka × LinkedIn",
     "headline": "Breaking LinkedIn with Luka Doncic",
+    "id": "luka",
     "year": "2021",
     "type": "PR",
-    "art": "radial-gradient(circle at 72% 34%, #F4F2EC 0 14%, transparent 14.5%), linear-gradient(135deg, #0A66C2 0 55%, #0E4E91 55%)",
     "stat": "Broke LinkedIn",
     "desc": "Making Luka the first-ever, All-Star athlete to announce a sponsorship deal by taking on a C-Level Executive role and announcing it on LinkedIn.",
     "blocks": [
@@ -155,32 +141,27 @@
       },
       {
         "k": "img",
-        "cap": "Luka's LinkedIn profile",
-        "src": ""
+        "cap": "Luka's LinkedIn profile"
       },
       {
         "k": "img",
-        "cap": "Twitter went absolutely mad upon hearing Luka's announcement",
-        "src": ""
+        "cap": "Twitter went absolutely mad upon hearing Luka's announcement"
       },
       {
         "k": "img",
-        "cap": "When his LinkedIn page broke down, we created a BioSteel email and an Out of Office message to keep the conversation going and the excitement high​.",
-        "src": ""
+        "cap": "When his LinkedIn page broke down, we created a BioSteel email and an Out of Office message to keep the conversation going and the excitement high​."
       }
     ],
     "agency": "MCX",
     "role": "Concepting. Campaign management.",
-    "press": "",
-    "img": ""
+    "art": "radial-gradient(circle at 72% 34%, #F4F2EC 0 14%, transparent 14.5%), linear-gradient(135deg, #0A66C2 0 55%, #0E4E91 55%)"
   },
   {
-    "id": "synth",
     "title": "AI Livestream",
     "headline": "World-Record AI Livestream",
+    "id": "synth",
     "year": "2023",
     "type": "PR",
-    "art": "radial-gradient(circle at 70% 36%, #8E7CFF 0 16%, transparent 16.5%), repeating-conic-gradient(#141414 0 25%, #232327 0 50%) 0 0 / 64px 64px",
     "stat": "World record",
     "desc": "Brought Synthesia's AI to a TikTok livestream to count up to a million, breaking a World Record along the way.",
     "blocks": [
@@ -203,16 +184,14 @@
     ],
     "agency": "Very Serious",
     "role": "Development of main concept and various content bits that aired over duration of the livestream.",
-    "press": "",
-    "img": ""
+    "art": "radial-gradient(circle at 70% 36%, #8E7CFF 0 16%, transparent 16.5%), repeating-conic-gradient(#141414 0 25%, #232327 0 50%) 0 0 / 64px 64px"
   },
   {
-    "id": "yuki",
     "title": "Tsunoda Manga",
     "headline": "A Manga-Hit for Yuki Tsunoda",
+    "id": "yuki",
     "year": "2023",
     "type": "Campaign",
-    "art": "radial-gradient(circle at 74% 38%, #141414 0 15%, transparent 15.5%), repeating-linear-gradient(-22deg, transparent 0 18px, rgba(255,255,255,.4) 18px 20px), #FF4A2E",
     "stat": "4.8M reach",
     "desc": "Bringing driver Yuki Tsunoda’s story to life in a must-have Manga Comic to drive fans to Catawiki’s auction site.",
     "blocks": [
@@ -225,28 +204,22 @@
         "x": "The limited edition prints sold like hot cakes, and spread on social to Yuki, AlphaTauri & CataWiki’s combined audience of 4.8m followers."
       },
       {
-        "k": "img",
-        "cap": "",
-        "src": ""
+        "k": "img"
       },
       {
-        "k": "img",
-        "cap": "",
-        "src": ""
+        "k": "img"
       }
     ],
     "agency": "M&C Saatchi Sports & Entertainment",
     "role": "Concept and story development.",
-    "press": "",
-    "img": ""
+    "art": "radial-gradient(circle at 74% 38%, #141414 0 15%, transparent 15.5%), repeating-linear-gradient(-22deg, transparent 0 18px, rgba(255,255,255,.4) 18px 20px), #FF4A2E"
   },
   {
-    "id": "merch",
     "title": "Merch",
     "headline": "Internet-Breaking Merch",
+    "id": "merch",
     "year": "2021",
     "type": "Campaign",
-    "art": "radial-gradient(circle at 22% 28%, #FFF3C7 0 9%, transparent 9.5%), radial-gradient(circle at 66% 58%, #FFF3C7 0 14%, transparent 14.5%), radial-gradient(circle at 84% 20%, #FFF3C7 0 5%, transparent 5.5%), #E8C86E",
     "stat": "Sold out in hours",
     "desc": "Letting NBA fans be part of the most popular friendship in basketball.",
     "blocks": [
@@ -275,9 +248,7 @@
         "x": "Working with Australian studio Struthless, we concepted and scripted an animated series following the pair’s wild adventures. The show was a massive hit with fans, garnering millions of views across social."
       },
       {
-        "k": "img",
-        "cap": "",
-        "src": ""
+        "k": "img"
       },
       {
         "k": "p",
@@ -286,17 +257,14 @@
     ],
     "agency": "Mark Cuban Experiments",
     "role": "Concepting. Art Direction. Collaboration with different design and animation studios. Screenwriting for Luka & Bobi episodes.",
-    "press": "",
-    "img": ""
+    "art": "radial-gradient(circle at 22% 28%, #FFF3C7 0 9%, transparent 9.5%), radial-gradient(circle at 66% 58%, #FFF3C7 0 14%, transparent 14.5%), radial-gradient(circle at 84% 20%, #FFF3C7 0 5%, transparent 5.5%), #E8C86E"
   },
   {
-    "id": "nft",
     "title": "NFTs vs. Dick Pics",
     "headline": "Fighting Dick Pics with NFTs",
+    "id": "nft",
     "year": "2021",
     "type": "PR",
-    "art": "radial-gradient(circle at 70% 36%, #141414 0 16%, transparent 16.5%), repeating-conic-gradient(#5CCB8E 0 25%, #4BB87C 0 50%) 0 0 / 64px 64px",
-    "stat": "",
     "desc": "NFT the DP - An online campaign to combat the sending of unsolicited photos of genitalia.",
     "blocks": [
       {
@@ -304,28 +272,22 @@
         "x": "We launched a website to encourage people who received unsolicited dick pics to mint the images into NFTs and sell them back to the senders - for a hefty price."
       },
       {
-        "k": "img",
-        "cap": "",
-        "src": ""
+        "k": "img"
       },
       {
-        "k": "img",
-        "cap": "",
-        "src": ""
+        "k": "img"
       }
     ],
     "agency": "Very Serious x Zoe Scaman",
     "role": "Concepting, Copywriting",
-    "press": "",
-    "img": ""
+    "art": "radial-gradient(circle at 70% 36%, #141414 0 16%, transparent 16.5%), repeating-conic-gradient(#5CCB8E 0 25%, #4BB87C 0 50%) 0 0 / 64px 64px"
   },
   {
-    "id": "pin",
     "title": "Pinterest Takes",
     "headline": "Launching Pinterest ’Takes’",
+    "id": "pin",
     "year": "2022",
     "type": "Campaign",
-    "art": "radial-gradient(circle, #FF8FA3 0 9px, transparent 10px) 0 0 / 40px 40px, #E60023",
     "stat": "1M+ follows",
     "desc": "Rallying a Million Follows and Smoothly Launching 'Takes' through a Celeb Hobbies Showcase.",
     "blocks": [
@@ -334,24 +296,19 @@
         "x": "The new 'Takes' feature on Pinterest needed a bang-up introduction that would also showcase a personal side of star personalities. By diving into the creative hobbies of stars like Mariah Carey, Jennifer Lopez, and Serena Williams, it gave a cool, personal intro to Pinterest's new feature while letting fans see a different side of their favorite celebs. The campaign pulled in over a million follows on the 'Create Your Take' Pinterest Board."
       },
       {
-        "k": "img",
-        "cap": "",
-        "src": ""
+        "k": "img"
       }
     ],
     "agency": "Amplify",
     "role": "Developed concepts for each celebrity and influencer. Script Development. Editing & design of all the 'Takes' that were posted on celebrity profiles.",
-    "press": "",
-    "img": ""
+    "art": "radial-gradient(circle, #FF8FA3 0 9px, transparent 10px) 0 0 / 40px 40px, #E60023"
   },
   {
-    "id": "hl",
     "title": "NBA Highlights",
     "headline": "Changing the NBA Highlights Game",
+    "id": "hl",
     "year": "2021",
     "type": "Content Creation",
-    "art": "radial-gradient(circle at 68% 36%, #141414 0 17%, transparent 17.5%), repeating-linear-gradient(0deg, #F57C1F 0 28px, #E56A0E 28px 56px)",
-    "stat": "",
     "desc": "Reinventing Sports Content for a New Generation of Sports Fans",
     "blocks": [
       {
@@ -381,17 +338,14 @@
     ],
     "agency": "Mark Cuban Experiments",
     "role": "Concepting, Copywriting and Art Direction for all highlights. Worked in close collaboration with animation studios to bring our vision to life.",
-    "press": "",
-    "img": ""
+    "art": "radial-gradient(circle at 68% 36%, #141414 0 17%, transparent 17.5%), repeating-linear-gradient(0deg, #F57C1F 0 28px, #E56A0E 28px 56px)"
   },
   {
-    "id": "yt",
     "title": "YouTube, London",
     "headline": "A YouTube Exhibition in Central London",
+    "id": "yt",
     "year": "2022",
     "type": "Campaign",
-    "art": "linear-gradient(#F3EFE6, #F3EFE6) 20% 26% / 16% 30% no-repeat, linear-gradient(#F3EFE6, #F3EFE6) 50% 22% / 22% 38% no-repeat, linear-gradient(#F3EFE6, #F3EFE6) 82% 28% / 11% 22% no-repeat, linear-gradient(0deg, #7E1717 0 32%, #C62828 32%)",
-    "stat": "",
     "desc": "YouTube wanted to demonstrate the effectiveness of advertising through its platform in an engaging and memorable way. So we curated the AV Exhibition with interactive installations to showcase the dynamic potential of YouTube advertising.",
     "blocks": [
       {
@@ -403,9 +357,7 @@
         "x": "A kinetic sculpture, made by Dutch creators HeyHeydeHaas, to symbolize how YouTube and Omnicom make your investments go further."
       },
       {
-        "k": "img",
-        "cap": "",
-        "src": ""
+        "k": "img"
       },
       {
         "k": "h",
@@ -416,9 +368,7 @@
         "x": "A sculpture made in collaboration with photographer Francis Augusto, where the full picture can only be seen from a specific angle, to show that YouTube & Omnicom ensure no gaps are left in your media plan."
       },
       {
-        "k": "img",
-        "cap": "",
-        "src": ""
+        "k": "img"
       },
       {
         "k": "h",
@@ -429,9 +379,7 @@
         "x": "Using photographs that capture locations across the UK, the map & projection show the importance of ensuring your audiences are represented and reached, geographically."
       },
       {
-        "k": "img",
-        "cap": "",
-        "src": ""
+        "k": "img"
       },
       {
         "k": "h",
@@ -442,9 +390,7 @@
         "x": "The cog activated wheel showcases a fresh new selection of diverse creators who make content that reaches diverse audiences."
       },
       {
-        "k": "img",
-        "cap": "",
-        "src": ""
+        "k": "img"
       },
       {
         "k": "h",
@@ -455,24 +401,19 @@
         "x": "These six screens show the handpicked, human-verified content available only to Omnicom MediaGroup Clients."
       },
       {
-        "k": "img",
-        "cap": "",
-        "src": ""
+        "k": "img"
       }
     ],
     "agency": "Amplify",
     "role": "Concept and development of all six art installations.",
-    "press": "",
-    "img": ""
+    "art": "linear-gradient(#F3EFE6, #F3EFE6) 20% 26% / 16% 30% no-repeat, linear-gradient(#F3EFE6, #F3EFE6) 50% 22% / 22% 38% no-repeat, linear-gradient(#F3EFE6, #F3EFE6) 82% 28% / 11% 22% no-repeat, linear-gradient(0deg, #7E1717 0 32%, #C62828 32%)"
   },
   {
-    "id": "lice",
     "title": "Lice Glow-Up",
     "headline": "Giving Lice a Glow-Up",
+    "id": "lice",
     "year": "2023",
     "type": "Branding",
-    "art": "radial-gradient(circle at 22% 28%, #DFF7E8 0 9%, transparent 9.5%), radial-gradient(circle at 66% 58%, #DFF7E8 0 14%, transparent 14.5%), radial-gradient(circle at 84% 20%, #DFF7E8 0 5%, transparent 5.5%), #5CCB8E",
-    "stat": "",
     "desc": "Getting rid of lice is no fun for kids or parents. That's why The Lice Clinic (or L'Institut Anti-Poux in French) entrusted us to rethink their identity and help launch their new line of lice products.",
     "blocks": [
       {
@@ -484,50 +425,38 @@
         "x": "The end result? A total re-invention of how lice brands should look and feel across all touchpoints."
       },
       {
-        "k": "img",
-        "cap": "",
-        "src": ""
+        "k": "img"
       },
       {
         "k": "p",
         "x": "We redesigned all of their physical locations to match their new identity (stores are currently being updated - this in an AI/Photoshop render)."
       },
       {
-        "k": "img",
-        "cap": "",
-        "src": ""
+        "k": "img"
       },
       {
         "k": "p",
         "x": "To guide kids through the lice treatment process, we created a cast of fun characters each representing a different step of the process."
       },
       {
-        "k": "img",
-        "cap": "",
-        "src": ""
+        "k": "img"
       },
       {
-        "k": "img",
-        "cap": "",
-        "src": ""
+        "k": "img"
       },
       {
         "k": "p",
         "x": "We designed an end-to-end lice treatment kit, soon to be sold online and in-store. We also developed the packaging for all of their lice products."
       },
       {
-        "k": "img",
-        "cap": "",
-        "src": ""
+        "k": "img"
       },
       {
         "k": "p",
         "x": "We completely revamped their website and created their e-commerce storefront."
       }
     ],
-    "agency": "",
     "role": "Creative Direction, Strategy, Art Direction, Copywriting, Product Development. Hired a designer and web designer to help bring the vision to life.",
-    "press": "",
-    "img": ""
+    "art": "radial-gradient(circle at 22% 28%, #DFF7E8 0 9%, transparent 9.5%), radial-gradient(circle at 66% 58%, #DFF7E8 0 14%, transparent 14.5%), radial-gradient(circle at 84% 20%, #DFF7E8 0 5%, transparent 5.5%), #5CCB8E"
   }
 ]
