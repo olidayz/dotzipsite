@@ -1,0 +1,29 @@
+{
+  "status_on": true,
+  "status_text": "Taking on new projects",
+  "hero_title": "We build characters, worlds, and stories for the internet.",
+  "hero_sub": "Internet-first entertainment studio. Characters, shows and stunts, made for the feed and built to travel.",
+  "projects_per_load": 3,
+  "about_title": "Made for the feed, built to travel.",
+  "about_text": "Dot Zip is an internet-first entertainment studio. We create characters, shows and experiences for leagues, brands, agencies and talent.",
+  "stats": [
+    {
+      "value": "30M+",
+      "label": "views on AI ads"
+    },
+    {
+      "value": "#1",
+      "label": "Tooth Fairy experience in the US"
+    },
+    {
+      "value": "1st",
+      "label": "digital mascot in the NBA"
+    }
+  ],
+  "worked_with": "Dallas Mavericks · Synthesia · Uncommon · The&Partnership · Goal.com · Luka Doncic",
+  "contact_title": "Let’s make something.",
+  "contact_placeholder": "A character, a show, a stunt…",
+  "youtube": "",
+  "x": "",
+  "instagram": ""
+}
