@@ -1,0 +1,72 @@
+
+body{margin:0;background:#0C0C0E;font-family:'Geist',system-ui,-apple-system,'Segoe UI',sans-serif;color:#1C3A5E}
+button,input,textarea{font-family:inherit}
+a{color:inherit;text-decoration:none}
+.y2-win{border-radius:18px;overflow:hidden;background:linear-gradient(180deg,#FFFFFF,#E9F1F9);border:1px solid #8FB3D9;box-shadow:0 24px 60px rgba(20,60,120,.35),inset 0 1px 0 #FFFFFF}
+.y2-bar{display:flex;align-items:center;gap:10px;height:36px;padding:0 14px;background:linear-gradient(180deg,#FDFEFF 0%,#E3EEF9 48%,#C9DDF2 52%,#E6F1FC 100%);border-bottom:1px solid #9CBCE0;font-size:13px;font-weight:600;color:#1C3A5E}
+.y2-dot{width:14px;height:14px;border-radius:50%;background:radial-gradient(circle at 50% 30%,#FFFFFF 0 18%,transparent 45%),radial-gradient(circle at 50% 70%,#7FC0FF,#1D6FD6);box-shadow:inset 0 0 0 1px rgba(10,50,110,.45)}
+.y2-gel{all:unset;cursor:pointer;position:relative;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:40px;padding:0 22px;border-radius:999px;color:#FFFFFF;font-weight:600;font-size:14px;background:linear-gradient(180deg,#9BD0FF 0%,#3D93F0 50%,#1F6FD8 51%,#5AB0FF 100%);box-shadow:0 4px 10px rgba(20,80,170,.35),inset 0 0 0 1px rgba(10,50,120,.4);text-shadow:0 1px 0 rgba(0,40,100,.4);box-sizing:border-box}
+.y2-gel:hover{filter:brightness(1.08)}
+.y2-silver{background:linear-gradient(180deg,#F5F8FB 0%,#DCE5EE 50%,#C8D4E0 51%,#E8EEF4 100%);color:#1C3A5E;text-shadow:none}
+.y2-tile{position:relative;display:block;border-radius:18px;overflow:hidden;box-shadow:0 16px 34px rgba(20,60,120,.3),inset 0 0 0 1px rgba(255,255,255,.6);transition:transform .25s ease,box-shadow .25s ease}
+.y2-tile:hover{transform:translateY(-6px);box-shadow:0 26px 50px rgba(20,60,120,.4)}
+.y2-art{position:absolute;inset:0;transition:transform .6s ease}
+.y2-tile:hover .y2-art{transform:scale(1.05)}
+.y2-f{grid-column:span 2}
+.y2-img-ryanair{background:url(assets/ryanair.jpg) center 38% / cover no-repeat}
+.y2-img-stan{background:url(assets/stan.jpg) center 30% / cover no-repeat}
+@media (max-width:900px){.y2-f{grid-column:span 1}}
+
+.y2-tile{all:unset;box-sizing:border-box;cursor:pointer;position:relative;display:block;width:100%;border-radius:18px;overflow:hidden;box-shadow:0 16px 34px rgba(20,60,120,.3),inset 0 0 0 1px rgba(255,255,255,.6);transition:transform .25s ease,box-shadow .25s ease}
+.y2-tile:focus-visible{outline:3px solid #0F2E57;outline-offset:4px}
+.y2-dotbtn{all:unset;cursor:pointer;box-sizing:border-box}
+.y2-shade{position:fixed;inset:0;z-index:50;display:flex;align-items:flex-start;justify-content:center;padding:28px clamp(10px,3vw,40px) 0;background:rgba(14,44,90,.32);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);animation:y2Fade .25s ease}
+.y2-pop{width:min(100%,1080px);max-height:calc(100vh - 56px);overflow:auto;display:flex;flex-direction:column;animation:y2Pop .35s cubic-bezier(.2,.8,.2,1)}
+.y2-pop .y2-bar{position:sticky;top:0;z-index:2;flex:none}
+@keyframes y2Pop{from{transform:translateY(24px) scale(.97);opacity:0}to{transform:none;opacity:1}}
+@keyframes y2Fade{from{opacity:0}to{opacity:1}}
+.y2-inset{border-radius:14px;background:#FFFFFF;box-shadow:inset 0 1px 3px rgba(20,60,120,.3);border:1px solid #C9DBEE}
+.y2-label{font-family:'Geist Mono',monospace;font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:#3D6A99}
+.y2-stat{flex:1 1 150px;display:flex;flex-direction:column;gap:6px;padding:4px 16px 4px 0;border-right:1px solid #C9DBEE}
+.y2-stat:last-child{border-right:0}
+.y2-addr{flex:1;min-width:0;display:flex;align-items:center;height:32px;padding:0 14px;border-radius:999px;background:#FFFFFF;box-shadow:inset 0 1px 3px rgba(20,60,120,.3);font-family:'Geist Mono',monospace;font-size:13px;white-space:nowrap;overflow:hidden}
+.y2-field{display:flex;flex-direction:column;gap:6px;min-width:0}
+.y2-input{box-sizing:border-box;width:100%;height:42px;padding:0 14px;border-radius:12px;border:1px solid #9CBCE0;background:#FFFFFF;box-shadow:inset 0 1px 3px rgba(20,60,120,.25);font:inherit;font-size:15px;color:#0F2E57;outline:none}
+.y2-input:focus{border-color:#1F6FD8;box-shadow:inset 0 1px 3px rgba(20,60,120,.25),0 0 0 3px rgba(61,147,240,.35)}
+.y2-input::placeholder{color:#6F8CAB}
+.y2-gel:focus-visible,.y2-dotbtn:focus-visible,.y2-foot:focus-visible{outline:3px solid #0F2E57;outline-offset:3px}
+.y2-gel:active{filter:brightness(.95);transform:translateY(1px)}
+.y2-foot{text-decoration:underline;text-decoration-color:rgba(28,58,94,.35);text-underline-offset:3px}
+.y2-foot:hover{text-decoration-color:#1C3A5E}
+button.y2-tile:hover .y2-tt{transform:translateY(-3px)}
+.y2-tt{transition:transform .25s ease}
+#work,#about,#contact{scroll-margin-top:20px}
+@media (max-width:700px){
+.y2-frame{padding:0 !important}
+.y2-screen{border-radius:0 !important;padding:10px !important;gap:16px !important}
+.y2-topbar{padding:6px 8px 6px 14px !important;gap:6px !important}
+.y2-topbar .y2-logo{font-size:24px !important;margin-right:2px !important}
+.y2-topbar .y2-gel{min-height:32px !important;padding:0 12px !important;font-size:13px}
+.y2-hide-sm{display:none !important}
+.y2-f{grid-column:span 1 !important}
+.y2-tile{aspect-ratio:4 / 5 !important}
+.y2-tile .y2-tt{font-size:48px !important}
+.y2-shade{padding:0 !important}
+.y2-pop{width:100%;max-height:100vh;height:100vh;border-radius:0 !important;border:0 !important}
+.y2-pop .y2-hero{aspect-ratio:4 / 3.4 !important}
+.y2-pop .y2-ht{font-size:56px !important}
+.y2-case{flex-direction:column}
+.y2-case > span{flex:none !important;padding-top:0 !important}
+.y2-case > span:empty{display:none}
+.y2-stat{flex:1 1 80px !important;padding-right:10px !important}
+.y2-stat > span:first-child{font-size:32px !important}
+}
+@media (prefers-reduced-motion:reduce){.y2-pop,.y2-shade{animation:none}.y2-tile,.y2-art{transition:none}}
+
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.y2-tile[hidden]{display:none!important}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+body.y2-lock{overflow:hidden}
+
+[hidden]{display:none!important}

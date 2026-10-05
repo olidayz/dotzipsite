@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dot Zip — Internet-first entertainment studio</title>
+<meta name="description" content="Dot Zip is an internet-first entertainment studio. We build characters, worlds, and stories for the internet.">
+<meta property="og:title" content="Dot Zip">
+<meta property="og:description" content="We build characters, worlds, and stories for the internet.">
+<meta property="og:image" content="assets/ryanair.jpg">
+<meta name="theme-color" content="#5FB4F5">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="y2-frame" style="font-family: 'Geist', system-ui, sans-serif; color: #1C3A5E; background: #0C0C0E; padding: clamp(8px, 1.6vw, 22px); min-height: 100vh; box-sizing: border-box">
+<div class="y2-screen" style="position: relative; border-radius: clamp(16px, 2.4vw, 34px); overflow: hidden; background: radial-gradient(40% 30% at 85% 4%, #FFFFFF 0%, transparent 60%), radial-gradient(50% 40% at 10% 100%, #9ED8FF 0%, transparent 60%), linear-gradient(180deg, #5FB4F5 0%, #BFE6FF 45%, #EAF6FF 100%); padding: clamp(14px, 2.4vw, 32px); box-sizing: border-box; display: flex; flex-direction: column; gap: 26px">
+
+<header class="y2-topbar" style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; padding: 8px 10px 8px 18px; border-radius: 999px; background: linear-gradient(180deg, rgba(255,255,255,.95), rgba(225,238,250,.9)); box-shadow: 0 10px 30px rgba(20,60,120,.25), inset 0 0 0 1px #A9C7E6">
+<a href="#work" class="y2-logo" style="font-family: 'Instrument Serif', serif; font-style: italic; font-size: 30px; line-height: 1; color: #0F2E57; margin-right: 12px">Dot Zip</a>
+<nav aria-label="Main" style="display: flex; gap: 10px">
+<a href="#work" class="y2-gel" data-nav="work" style="min-height: 36px">Work</a>
+<a href="#about" class="y2-gel y2-silver" data-nav="about" style="min-height: 36px">About</a>
+<a href="#contact" class="y2-gel y2-silver" data-nav="contact" style="min-height: 36px">Contact</a>
+</nav>
+<span class="y2-hide-sm" data-s-show="status_on" style="margin-left: auto; display: flex; align-items: center; gap: 8px; font-size: 13px; padding-right: 8px"><span style="width: 12px; height: 12px; border-radius: 50%; background: radial-gradient(circle at 50% 30%, #FFFFFF 0 20%, transparent 50%), #2FC25B; box-shadow: 0 0 8px #2FC25B"></span><span data-s="status_text">Taking on new projects</span></span>
+</header>
+
+<main style="display: flex; flex-direction: column; gap: 26px">
+<section id="work" class="y2-win" aria-labelledby="work-title">
+<div class="y2-bar"><span class="y2-dot"></span><span class="y2-dot" style="filter: hue-rotate(160deg) saturate(.4)"></span><span class="y2-dot" style="filter: saturate(0)"></span><span style="margin: 0 auto">Dot Zip Explorer</span></div>
+<div style="display: flex; align-items: center; gap: 8px; padding: 10px 14px; border-bottom: 1px solid #C9DBEE">
+<span class="y2-gel" style="min-height: 32px; width: 32px; padding: 0" aria-hidden="true">◂</span><span class="y2-gel" style="min-height: 32px; width: 32px; padding: 0" aria-hidden="true">▸</span>
+<span class="y2-addr">dotzip.studio/work</span>
+<span class="y2-gel y2-silver y2-hide-sm" style="min-height: 32px; font-size: 13px" aria-live="polite"><span data-shown>3</span>&nbsp;of&nbsp;<span data-count>13</span>&nbsp;projects</span>
+</div>
+<div style="padding: clamp(18px, 2.6vw, 36px)">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 18px 40px; margin-bottom: clamp(22px, 2.6vw, 36px)">
+<h1 id="work-title" style="margin: 0; flex: 1 1 640px; font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; font-size: clamp(48px, 6vw, 100px); line-height: .88; color: #0F2E57"><span data-s="hero_title">We build characters, worlds, and stories for the internet.</span></h1>
+<p data-s="hero_sub" style="margin: 0; flex: 0 1 300px; font-size: 16px; line-height: 1.45">Internet-first entertainment studio. Characters, shows and stunts, made for the feed and built to travel.</p>
+</div>
+<div id="grid" style="display: grid; grid-template-columns: minmax(0, 1fr); gap: clamp(18px, 2vw, 28px)"></div>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 12px; margin-top: clamp(26px, 3vw, 40px)">
+<button type="button" class="y2-gel" id="more" style="min-height: 52px; padding: 0 30px; font-size: 15px">Load 3 more ▾</button>
+<button type="button" class="y2-gel y2-silver" id="less" hidden style="min-height: 44px; font-size: 14px">Show less ▴</button>
+<span style="display: flex; align-items: center; gap: 10px; font-family: 'Geist Mono', monospace; font-size: 12px"><span style="width: 160px; height: 10px; border-radius: 99px; background: #D6E4F2; box-shadow: inset 0 1px 2px rgba(20,60,120,.3); overflow: hidden"><span id="meter" style="display: block; width: 23%; height: 100%; border-radius: 99px; background: linear-gradient(180deg, #9BD0FF, #1F6FD8); transition: width .4s ease"></span></span><span><span data-shown>3</span> of <span data-count>13</span></span></span>
+</div>
+</div>
+</section>
+
+<div style="display: flex; flex-wrap: wrap; gap: 26px; align-items: stretch">
+<section id="about" class="y2-win" style="flex: 1.3 1 420px" aria-labelledby="about-title">
+<div class="y2-bar"><span class="y2-dot"></span><span style="margin: 0 auto">About</span></div>
+<div style="padding: 20px 22px 24px; display: flex; flex-direction: column; gap: 14px; font-size: 15px; line-height: 1.5">
+<h2 id="about-title" data-s="about_title" style="margin: 0; font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; font-size: 44px; line-height: .95; color: #0F2E57">Made for the feed, built to travel.</h2>
+<p data-s="about_text" style="margin: 0">Dot Zip is an internet-first entertainment studio. We create characters, shows and experiences for leagues, brands, agencies and talent.</p>
+<div id="stats" style="display: flex; flex-wrap: wrap; gap: 14px 16px; padding: 14px 16px; border-radius: 14px; background: linear-gradient(180deg, #FFFFFF, #EEF5FC); box-shadow: inset 0 0 0 1px #C9DBEE">
+<div class="y2-stat"><span style="font-family: 'Instrument Serif', serif; font-style: italic; font-size: 40px; line-height: .9; color: #0F2E57">30M+</span><span style="font-size: 12px; line-height: 1.35">views on AI ads</span></div>
+<div class="y2-stat"><span style="font-family: 'Instrument Serif', serif; font-style: italic; font-size: 40px; line-height: .9; color: #0F2E57">#1</span><span style="font-size: 12px; line-height: 1.35">Tooth Fairy experience in the US</span></div>
+<div class="y2-stat"><span style="font-family: 'Instrument Serif', serif; font-style: italic; font-size: 40px; line-height: .9; color: #0F2E57">1st</span><span style="font-size: 12px; line-height: 1.35">digital mascot in the NBA</span></div>
+</div>
+<p style="margin: 0; font-size: 13px; opacity: .85">Worked with <span data-s="worked_with">Dallas Mavericks · Synthesia · Uncommon · The&amp;Partnership · Goal.com · Luka Doncic</span></p>
+</div>
+</section>
+
+<section id="contact" class="y2-win" style="flex: 1 1 380px; display: flex; flex-direction: column" aria-labelledby="contact-title">
+<div class="y2-bar"><span class="y2-dot"></span><span style="margin: 0 auto">New Message</span></div>
+<!-- Netlify Forms picks this up automatically on deploy. For Formspree, set data-endpoint="https://formspree.io/f/XXXX". -->
+<form id="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-endpoint="" novalidate style="flex: 1; padding: 20px 22px 22px; display: flex; flex-direction: column; gap: 12px">
+<input type="hidden" name="form-name" value="contact">
+<p class="sr-only"><label>Leave this empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+<h2 id="contact-title" data-s="contact_title" style="margin: 0; font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; font-size: 40px; line-height: .95; color: #0F2E57">Let’s make something.</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 10px">
+<label class="y2-field" style="flex: 1 1 160px"><span class="y2-label">Name</span><input class="y2-input" name="name" type="text" autocomplete="name" placeholder="Your name" required></label>
+<label class="y2-field" style="flex: 1 1 200px"><span class="y2-label">Email</span><input class="y2-input" name="email" type="email" autocomplete="email" placeholder="you@company.com" required></label>
+</div>
+<label class="y2-field"><span class="y2-label">Message</span><textarea class="y2-input" data-s-ph="contact_placeholder" name="message" rows="4" placeholder="A character, a show, a stunt…" required style="height: auto; padding-top: 10px; resize: vertical; min-height: 96px"></textarea></label>
+<span id="form-err" role="alert" style="font-size: 13px; color: #B3261E; min-height: 0"></span>
+<button type="submit" class="y2-gel" id="send" style="min-height: 48px">Send message ▸</button>
+</form>
+<div id="form-done" hidden style="flex: 1; padding: 26px 22px; display: flex; flex-direction: column; justify-content: center; gap: 14px">
+<span aria-hidden="true" style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 50%; color: #FFFFFF; font-size: 20px; background: linear-gradient(180deg, rgba(255,255,255,.45) 0 45%, rgba(255,255,255,0) 50%), linear-gradient(180deg, #6EE08F, #22A84B); box-shadow: 0 4px 10px rgba(20,120,60,.35)">✓</span>
+<h2 id="done-title" style="margin: 0; font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; font-size: 40px; line-height: .95; color: #0F2E57">Thanks.</h2>
+<p id="done-text" style="margin: 0; font-size: 15px; line-height: 1.5">Your message is in. We’ll reply soon.</p>
+<button type="button" class="y2-gel y2-silver" id="again" style="align-self: flex-start; min-height: 40px">Write another</button>
+</div>
+</section>
+</div>
+</main>
+
+<footer style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; padding: 0 8px 6px; font-family: 'Geist Mono', monospace; font-size: 12px; color: #1C3A5E"><span>© 2026 Dot Zip LLC</span><span style="display: flex; gap: 14px"><a class="y2-foot" href="#" data-s-href="youtube">YouTube</a><a class="y2-foot" href="#" data-s-href="x">X</a><a class="y2-foot" href="#" data-s-href="instagram">Instagram</a></span></footer>
+</div>
+</div>
+
+<div id="shade" class="y2-shade" hidden>
+<section class="y2-win y2-pop" role="dialog" aria-modal="true" aria-labelledby="win-title" id="win" tabindex="-1"></section>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
